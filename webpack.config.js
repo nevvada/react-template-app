@@ -18,7 +18,7 @@ module.exports = {
       {
         test: /\.(sa|sc|c)ss$/,
         exclude: /node_modules/,
-        loaders: ['style-loader', 'css-loader']
+        loaders: ['style-loader', 'css-loader', 'sass-loader']
       }
     ]
   },
